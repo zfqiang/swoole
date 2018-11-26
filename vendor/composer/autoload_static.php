@@ -55,6 +55,7 @@ class ComposerStaticInit6e1f111ac0a422878df5e4a1c8628eb8
             'Symfony\\Component\\Debug\\' => 24,
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
+            'SwooleTW\\Http\\' => 14,
             'Seld\\PharUtils\\' => 15,
             'Seld\\JsonLint\\' => 14,
         ),
@@ -214,6 +215,10 @@ class ComposerStaticInit6e1f111ac0a422878df5e4a1c8628eb8
         'Symfony\\Component\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
+        ),
+        'SwooleTW\\Http\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/swooletw/laravel-swoole/src',
         ),
         'Seld\\PharUtils\\' => 
         array (
@@ -3414,6 +3419,14 @@ class ComposerStaticInit6e1f111ac0a422878df5e4a1c8628eb8
         'Seld\\JsonLint\\Undefined' => __DIR__ . '/..' . '/seld/jsonlint/src/Seld/JsonLint/Undefined.php',
         'Seld\\PharUtils\\Timestamps' => __DIR__ . '/..' . '/seld/phar-utils/src/Timestamps.php',
         'SessionUpdateTimestampHandlerInterface' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/SessionUpdateTimestampHandlerInterface.php',
+        'SwooleTW\\Http\\Commands\\HttpServerCommand' => __DIR__ . '/..' . '/swooletw/laravel-swoole/src/Commands/HttpServerCommand.php',
+        'SwooleTW\\Http\\HttpServiceProvider' => __DIR__ . '/..' . '/swooletw/laravel-swoole/src/HttpServiceProvider.php',
+        'SwooleTW\\Http\\LaravelServiceProvider' => __DIR__ . '/..' . '/swooletw/laravel-swoole/src/LaravelServiceProvider.php',
+        'SwooleTW\\Http\\LumenServiceProvider' => __DIR__ . '/..' . '/swooletw/laravel-swoole/src/LumenServiceProvider.php',
+        'SwooleTW\\Http\\Server\\Application' => __DIR__ . '/..' . '/swooletw/laravel-swoole/src/Server/Application.php',
+        'SwooleTW\\Http\\Server\\Manager' => __DIR__ . '/..' . '/swooletw/laravel-swoole/src/Server/Manager.php',
+        'SwooleTW\\Http\\Server\\Request' => __DIR__ . '/..' . '/swooletw/laravel-swoole/src/Server/Request.php',
+        'SwooleTW\\Http\\Server\\Response' => __DIR__ . '/..' . '/swooletw/laravel-swoole/src/Server/Response.php',
         'Symfony\\Component\\Console\\Application' => __DIR__ . '/..' . '/symfony/console/Application.php',
         'Symfony\\Component\\Console\\CommandLoader\\CommandLoaderInterface' => __DIR__ . '/..' . '/symfony/console/CommandLoader/CommandLoaderInterface.php',
         'Symfony\\Component\\Console\\CommandLoader\\ContainerCommandLoader' => __DIR__ . '/..' . '/symfony/console/CommandLoader/ContainerCommandLoader.php',

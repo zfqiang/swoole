@@ -3618,6 +3618,63 @@
         ]
     },
     {
+        "name": "swooletw/laravel-swoole",
+        "version": "v2.0.6",
+        "version_normalized": "2.0.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/swooletw/laravel-swoole.git",
+            "reference": "6171ae6efadd6768420ad640f156006534f34dc9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/swooletw/laravel-swoole/zipball/6171ae6efadd6768420ad640f156006534f34dc9",
+            "reference": "6171ae6efadd6768420ad640f156006534f34dc9",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/console": "~5.1",
+            "illuminate/contracts": "~5.1",
+            "illuminate/http": "~5.1",
+            "illuminate/support": "~5.1"
+        },
+        "require-dev": {
+            "laravel/lumen-framework": "~5.1",
+            "phpunit/phpunit": "~6.0"
+        },
+        "time": "2018-02-24T15:29:21+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "SwooleTW\\Http\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Huang Yi",
+                "email": "coodeer@163.com"
+            },
+            {
+                "name": "Albert Chen",
+                "email": "albert@unisharp.com"
+            }
+        ],
+        "description": "High performance HTTP server based on Swoole. Speed up your Laravel and Lumen applications.",
+        "keywords": [
+            "http",
+            "laravel",
+            "lumen",
+            "performance",
+            "server",
+            "swoole"
+        ]
+    },
+    {
         "name": "symfony/console",
         "version": "v3.4.18",
         "version_normalized": "3.4.18.0",
